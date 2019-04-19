@@ -1,0 +1,90 @@
+---------------------------- TO BE DELETED BECAUSE OLD ----------------------------
+
+rm -rf iosbinpack64/amfid_payload.dylib_
+rm -rf iosbinpack64/dropbear.plist
+rm -rf iosbinpack64/makeMeAtHome.sh
+rm -rf iosbinpack64/pspawn.dylib
+rm -rf iosbinpack64/test
+rm -rf iosbinpack64/bin/jailbreakd_client
+rm -rf iosbinpack64/bin/amfidebilitate
+rm -rf iosbinpack64/LaunchDaemons/jailbreakd.plist
+rm -rf iosbinpack64/LaunchDaemons/testbin.plist
+
+---------------------------- TO BE DELETED BECAUSE OLD ----------------------------
+
+x iosbinpack64/usr/local/bin/jlutil
+x iosbinpack64/usr/local/bin/joker
+x iosbinpack64/usr/local/bin/jtool
+x iosbinpack64/usr/local/bin/procexp
+x iosbinpack64/usr/local/bin/procexp.ent
+x iosbinpack64/usr/local/bin/qilin.o
+x iosbinpack64/usr/local/bin/shaihulud
+x iosbinpack64/usr/local/bin/shaihulud.c
+
+---------------------------- TO BE DELETED BECAUSE REPLACE OF BINBAG(NOT YET) ----------------------------
+
+x iosbinpack64/bin/stty
+x iosbinpack64/sbin/umount
+x iosbinpack64/usr/bin/chflags
+x iosbinpack64/bin/chmod
+x iosbinpack64/usr/sbin/chown
+x iosbinpack64/bin/cp
+x iosbinpack64/bin/dd
+x iosbinpack64/usr/bin/du
+x iosbinpack64/bin/ln
+x iosbinpack64/bin/ls
+x iosbinpack64/bin/mkdir
+x iosbinpack64/sbin/mknod
+x iosbinpack64/bin/mv
+x iosbinpack64/bin/rm
+x iosbinpack64/bin/rmdir
+x iosbinpack64/usr/bin/stat
+x iosbinpack64/sbin/ifconfig
+x iosbinpack64/usr/sbin/netstat
+x iosbinpack64/sbin/ping
+x iosbinpack64/bin/date
+x iosbinpack64/usr/bin/find
+x iosbinpack64/usr/bin/id
+x iosbinpack64/usr/bin/hexdump
+x iosbinpack64/bin/hostname
+x iosbinpack64/usr/bin/killall
+x iosbinpack64/usr/bin/nohup
+x iosbinpack64/usr/bin/printf
+x iosbinpack64/bin/pwd
+x iosbinpack64/usr/bin/renice
+x iosbinpack64/usr/bin/script
+x iosbinpack64/usr/bin/seq
+x iosbinpack64/bin/sleep
+x iosbinpack64/usr/bin/tee
+x iosbinpack64/usr/bin/time
+x iosbinpack64/usr/bin/uname
+x iosbinpack64/usr/bin/w
+x iosbinpack64/usr/bin/what
+x iosbinpack64/usr/bin/which
+x iosbinpack64/usr/bin/xargs
+x iosbinpack64/sbin/dmesg
+x iosbinpack64/usr/bin/hostinfo
+x iosbinpack64/usr/bin/lsmp
+x iosbinpack64/usr/bin/sc_usage
+x iosbinpack64/usr/sbin/sysctl
+x iosbinpack64/bin/cat
+x iosbinpack64/usr/bin/cut
+x iosbinpack64/usr/bin/grep
+x iosbinpack64/usr/bin/head
+x iosbinpack64/usr/bin/split
+x iosbinpack64/usr/bin/tail
+x iosbinpack64/usr/bin/wc
+x iosbinpack64/usr/bin/tar
+
+---------------------------- BINBAG ----------------------------
+
+adv_cmds: ps, stty
+diskdev_cmds: mount, setclass, umount
+file_cmds: chflags, chmod, chown, chgrp, cp, dd, df, du, ln, ls, mkdir, mkfifo, mknod, mv, readlink, rm, rmdir, stat, touch
+netcat: netcat
+network_cmds: arp, ifconfig, netstat, ping, traceroute
+shell_cmds: basename, date, dirname, expr, find, id, hexdump, hostname, jot, killall, mktemp, nice, nohup, printf, pwd,
+  renice, script, seq, sleep, systime, tee, test, time, uname, w, what, which, xargs
+system_cmds: dmesg, hostinfo, lsmp, mean, nvram, reboot, sc_usage, stackshot, sysctl, trace
+text_cmds: cat, cut, comm, grep, head, split, sort, tail, tr, uniq, wc
+libarchive: tar
