@@ -15,6 +15,13 @@ tar -zxvf jtool2.tgz jtool2
 rm -rf jtool2.tgz
 
 # Procexp and more comming soon
+ldid2 -S../jtools_ent/binbag.ent binbag.arm64
+ldid2 -S../jtools_ent/binbag.ent binbag.arm64e
+ldid2 -S../jtools_ent/default.ent bash.arm64
+ldid2 -S../jtools_ent/default.ent bash.arm64e
+
+ARCH=arm64 ldid2 -S../jtools_ent/default.ent jtool2
+ARCH=arm64e ldid2 -S../jtools_ent/default.ent jtool2
 
 # Copy new stuff
 tar --disable-copyfile -cvf jtoolspack.tar .
