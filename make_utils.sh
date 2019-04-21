@@ -19,7 +19,8 @@ curl -L https://github.com/sbingner/ldid/releases/download/v2.0.1/ldid.gz --outp
 gzip -d ldid.gz
 chmod 755 ldid
 
-# Procexp and more comming soon
+# Snappy(@Sbingner) and nonceutil(@pwd20wndstuff) will come soon, but first I have to clean something
+
 ldid2 -Sbinbag.ent binbag.arm64
 ldid2 -Sbinbag.ent binbag.arm64e
 ldid2 -Sdefault.ent bash.arm64

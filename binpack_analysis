@@ -12,14 +12,10 @@ rm -rf iosbinpack64/LaunchDaemons/testbin.plist
 
 ---------------------------- TO BE DELETED BECAUSE OLD ----------------------------
 
-x iosbinpack64/usr/local/bin/jlutil
-x iosbinpack64/usr/local/bin/joker
-x iosbinpack64/usr/local/bin/jtool
-x iosbinpack64/usr/local/bin/procexp
-x iosbinpack64/usr/local/bin/procexp.ent
-x iosbinpack64/usr/local/bin/qilin.o
-x iosbinpack64/usr/local/bin/shaihulud
-x iosbinpack64/usr/local/bin/shaihulud.c
+rm -rf iosbinpack64/usr/local/bin/jtool
+rm -rf iosbinpack64/usr/local/bin/qilin.o
+rm -rf iosbinpack64/usr/local/bin/shaihulud
+rm -rf iosbinpack64/usr/local/bin/shaihulud.c
 
 ---------------------------- TO BE DELETED BECAUSE REPLACE OF BINBAG(NOT YET) ----------------------------
 

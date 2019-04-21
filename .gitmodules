@@ -1,0 +1,6 @@
+[submodule "extra_repos/snappy"]
+	path = extra_repos/snappy
+	url = https://github.com/sbingner/snappy.git
+[submodule "extra_repos/nonceutil"]
+	path = extra_repos/nonceutil
+	url = git@github.com:xavo95/nonceutil.git

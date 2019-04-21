@@ -16,6 +16,11 @@ rm -rf iosbinpack64/bin/amfidebilitate
 rm -rf iosbinpack64/LaunchDaemons/jailbreakd.plist
 rm -rf iosbinpack64/LaunchDaemons/testbin.plist
 
+rm -rf iosbinpack64/usr/local/bin/jtool
+rm -rf iosbinpack64/usr/local/bin/qilin.o
+rm -rf iosbinpack64/usr/local/bin/shaihulud
+rm -rf iosbinpack64/usr/local/bin/shaihulud.c
+
 # Copy new stuff
 tar --disable-copyfile -cvf iosbinpack.tar iosbinpack64
 cd ..
